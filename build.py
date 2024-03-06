@@ -1,7 +1,7 @@
 import os
 import sys
 from os.path import abspath, basename, isdir, isfile
-#Mysimple script to build folder stracture
+#I have created this script to build folder structure
 #AR 4/3/24
 def tree(directory, padding={}, indent=0):
     root = abspath(directory)
